@@ -1,0 +1,35 @@
+.file-picker-section {
+    margin-bottom: 10px;
+}
+
+.file-picker-header {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+}
+
+.file-picker-header:hover {
+    background-color: #e0e0e0;
+}
+
+.file-picker-content.collapsed {
+    display: none;
+}
+
+.file-picker-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007acc;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.file-picker-button:hover {
+    background-color: #005fa3;
+}
